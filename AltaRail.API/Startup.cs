@@ -2,7 +2,8 @@
 using AltaRail.Application.Mappings;
 using AltaRail.Application.Services;
 using AltaRail.Domain;
-using AltaRail.Repository.EF.InMemory;
+using AltaRail.Repository.EF.InMemory.Extensions;
+using AltaRail.Repository.EF.InMemory.Repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
